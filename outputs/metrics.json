@@ -1,0 +1,62 @@
+{
+  "n_molecules": 2830,
+  "n_readily_biodegradable": 1097,
+  "cv_5fold_mean_std": {
+    "accuracy": [
+      0.8508833922261484,
+      0.012720848056537086
+    ],
+    "balanced_accuracy": [
+      0.8431362944144833,
+      0.01485193033292798
+    ],
+    "f1": [
+      0.807702425883366,
+      0.017934872898445888
+    ],
+    "roc_auc": [
+      0.9305270086551862,
+      0.010219205466035495
+    ]
+  },
+  "random_holdout_20pct": {
+    "accuracy": 0.842756183745583,
+    "balanced_accuracy": 0.8397549774321319,
+    "f1": 0.802660753880266,
+    "roc_auc": 0.9399681549616412
+  },
+  "random_holdout_confusion_matrix[[TN,FP],[FN,TP]]": [
+    [
+      296,
+      51
+    ],
+    [
+      38,
+      181
+    ]
+  ],
+  "scaffold_holdout_20pct": {
+    "accuracy": 0.8409893992932862,
+    "balanced_accuracy": 0.6582572684246113,
+    "f1": 0.4578313253012048,
+    "roc_auc": 0.8162715517241379
+  },
+  "scaffold_test_size": 566,
+  "top_features": {
+    "BCUT2D_LOGPHI": 0.0267,
+    "BCUT2D_MWHI": 0.017,
+    "BCUT2D_MRHI": 0.0139,
+    "BertzCT": 0.0132,
+    "VSA_EState6": 0.0129,
+    "SlogP_VSA10": 0.012,
+    "SMR_VSA10": 0.0118,
+    "morgan_1380": 0.0118,
+    "BCUT2D_CHGHI": 0.0113,
+    "BCUT2D_MRLOW": 0.0113,
+    "BCUT2D_CHGLO": 0.0111,
+    "MinPartialCharge": 0.0102,
+    "SMR_VSA7": 0.0097,
+    "morgan_1873": 0.0096,
+    "fr_benzene": 0.0091
+  }
+}

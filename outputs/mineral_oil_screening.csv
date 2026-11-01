@@ -1,0 +1,11 @@
+candidate,type,source,biobased,modelled_as,mol_weight,p_readily_biodegradable,lab_result_in_dataset,model_confidence,c_eq_c_bonds,bis_allylic_sites,ester_bonds,oxidation_stability,ph_2_12_stability,texture_match,overall_score
+Mineral oil (today),Petroleum hydrocarbon,Crude oil refining,0,"n-eicosane, C20",282.6,0.998,RB,high,0,0,0,high,stable,1.0,
+Hemisqualane,Bio-alkane,"Sugarcane sugar, fermentation",1,"2,6,10-trimethyldodecane, C15",212.4,0.476,not in data,high,0,0,0,high,stable,0.63,0.768
+C15-19 alkane,Bio-alkane,Hydrotreated vegetable oil,1,"n-heptadecane, C17",240.5,1.0,RB,high,0,0,0,high,stable,0.76,0.951
+Undecane,Bio-alkane,Coconut / palm kernel,1,"n-undecane, C11",156.3,0.996,RB,high,0,0,0,high,stable,0.43,0.885
+Squalane,Bio-alkane,Sugarcane / olive,1,"squalane, C30",422.8,0.17,NRB,high,0,0,0,high,stable,0.39,0.63
+Coco-caprylate,Plant ester,Coconut,1,lauryl caprylate,312.5,1.0,not in data,high,0,0,1,high,hydrolysis risk,0.82,0.714
+Isoamyl laurate,Plant ester,Plant fatty acid,1,isoamyl laurate,270.5,0.998,RB,high,0,0,1,high,hydrolysis risk,0.92,0.734
+Caprylic/capric triglyceride,Saturated plant oil,Coconut / palm kernel,1,glyceryl tricaprylate,470.7,0.958,not in data,high,0,0,3,high,hydrolysis risk,0.29,0.594
+Olive oil,Unsaturated plant oil,Olive,1,triolein,885.5,0.918,not in data,high,3,0,3,medium,hydrolysis risk,0.02,0.404
+Sunflower oil,Unsaturated plant oil,Sunflower,1,trilinolein,879.4,0.794,not in data,high,6,3,3,low,hydrolysis risk,0.02,0.242
